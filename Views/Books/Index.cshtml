@@ -1,33 +1,100 @@
 ﻿@model IEnumerable<KutuphaneUygulamasi.Models.Book>
 
-<h2>Kitap Listesi</h2>
-<a asp-action="Add" class="btn btn-primary mb-3">Yeni Kitap Ekle</a>
+<div class="container mt-4">
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show shadow-sm" role="alert">
+            <strong>Başarılı!</strong> @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Kapat"></button>
+        </div>
+    }
 
-<table class="table table-bordered table-striped">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Başlık</th>
-            <th>Yazar</th>
-            <th>Fiyat</th>
-            <th>Stok</th>
-            <th>İşlemler</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var book in Model)
-        {
-            <tr>
-                <td>@book.Id</td>
-                <td>@book.Title</td>
-                <td>@book.Author</td>
-                <td>@book.Price</td>
-                <td>@book.Stock</td>
-                <td>
-                    <a asp-action="Update" asp-route-id="@book.Id" class="btn btn-sm btn-warning">Güncelle</a>
-                    <a asp-action="Remove" asp-route-id="@book.Id" class="btn btn-sm btn-danger" onclick="return confirm('Silmek istediğinize emin misiniz?');">Sil</a>
-                </td>
-            </tr>
+    <div class="card shadow-sm border-0">
+        <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+            <h3 class="card-title mb-0">Kitap Listesi</h3>
+            <a asp-action="Add" class="btn btn-light btn-sm fw-bold text-dark">
+                + Yeni Kitap Ekle
+            </a>
+        </div>
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover table-striped align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th class="ps-3">Id</th>
+                            <th>Başlık</th>
+                            <th>Yazar</th>
+                            <th>Fiyat</th>
+                            <th>Stok</th>
+                            <th class="text-center">İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (!Model.Any())
+                        {
+                            <tr>
+                                <td colspan="6" class="text-center py-4 text-muted">
+                                    Sistemde henüz kayıtlı kitap bulunmamaktadır.
+                                </td>
+                            </tr>
+                        }
+                        else
+                        {
+                            @foreach (var book in Model)
+                            {
+                                <tr>
+                                    <td class="ps-3 fw-bold">@book.Id</td>
+                                    <td>@book.Title</td>
+                                    <td>@book.Author</td>
+                                    <td>@book.Price.ToString("C2")</td>
+                                    <td>
+                                        @if (book.Stock == 0)
+                                        {
+                                            <span class="badge bg-danger">Tükendi</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-success">@book.Stock Adet</span>
+                                        }
+                                    </td>
+                                    <td class="text-center">
+                                        <a asp-action="Update" asp-route-id="@book.Id" class="btn btn-sm btn-outline-primary me-1">Güncelle</a>
+                                        <button type="button" class="btn btn-sm btn-outline-danger" onclick="setDeleteUrl('@Url.Action("Remove", "Books", new { id = book.Id })')" data-bs-toggle="modal" data-bs-target="#deleteModal">Sil</button>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="deleteModalLabel">Silme İşlemini Onayla</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Kapat"></button>
+            </div>
+            <div class="modal-body text-center py-4">
+                <p class="mb-0 fs-5">Bu kitabı silmek istediğinize emin misiniz?</p>
+                <small class="text-muted">Bu işlem geri alınamaz.</small>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-secondary px-4" data-bs-dismiss="modal">İptal</button>
+                <a id="confirmDeleteBtn" href="#" class="btn btn-danger px-4">Evet, Sil</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Modal içindeki silme linkini, tıklanan kitabın ID'sine göre güncelleyen fonksiyon
+        function setDeleteUrl(url) {
+            document.getElementById('confirmDeleteBtn').href = url;
         }
-    </tbody>
-</table>
+    </script>
+}
