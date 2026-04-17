@@ -152,3 +152,4 @@ C:\Users\hamza\OneDrive\Masaüstü\Hamza\C# projeler\KutuphaneUygulamasi\obj\Deb
 C:\Users\hamza\OneDrive\Masaüstü\Hamza\C# projeler\KutuphaneUygulamasi\obj\Debug\net8.0\KutuphaneUygulamasi.pdb
 C:\Users\hamza\OneDrive\Masaüstü\Hamza\C# projeler\KutuphaneUygulamasi\obj\Debug\net8.0\KutuphaneUygulamasi.genruntimeconfig.cache
 C:\Users\hamza\OneDrive\Masaüstü\Hamza\C# projeler\KutuphaneUygulamasi\obj\Debug\net8.0\ref\KutuphaneUygulamasi.dll
+C:\Users\hamza\OneDrive\Masaüstü\Hamza\C# projeler\KutuphaneUygulamasi\obj\Debug\net8.0\KutuphaneUygulamasi.sourcelink.json
