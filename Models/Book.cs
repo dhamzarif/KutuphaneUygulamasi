@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace KutuphaneUygulamasi.Models
 {
@@ -16,10 +17,18 @@ namespace KutuphaneUygulamasi.Models
 
         [Required(ErrorMessage = "Fiyat alanı boş geçilemez.")]
         [Range(0.01, double.MaxValue, ErrorMessage = "Fiyat 0'dan büyük olmalıdır.")]
+        [Column(TypeName = "decimal(18,2)")] 
         public decimal Price { get; set; }
 
         [Required(ErrorMessage = "Stok alanı boş geçilemez.")]
         [Range(0, int.MaxValue, ErrorMessage = "Stok 0 veya daha büyük olmalıdır.")]
         public int Stock { get; set; }
+
+        //  9. hafta eklenen navigation propertyler vs
+
+        [Required(ErrorMessage = "Lütfen bir kategori seçiniz.")]
+        public int CategoryId { get; set; } 
+      
+        public Category? Category { get; set; }
     }
 }

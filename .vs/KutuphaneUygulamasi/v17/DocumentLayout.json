@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|c:\\users\\hamza\\onedrive\\masa\u00FCst\u00FC\\hamza\\c# projeler\\kutuphaneuygulamasi\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|solutionrelative:views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|c:\\users\\hamza\\onedrive\\masa\u00FCst\u00FC\\hamza\\c# projeler\\kutuphaneuygulamasi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,40 +15,16 @@
       "RelativeMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|c:\\users\\hamza\\onedrive\\masa\u00FCst\u00FC\\hamza\\c# projeler\\kutuphaneuygulamasi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|c:\\users\\hamza\\onedrive\\masa\u00FCst\u00FC\\hamza\\c# projeler\\kutuphaneuygulamasi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|c:\\users\\hamza\\onedrive\\masa\u00FCst\u00FC\\hamza\\c# projeler\\kutuphaneuygulamasi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|c:\\users\\hamza\\onedrive\\masa\u00FCst\u00FC\\hamza\\c# projeler\\kutuphaneuygulamasi\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|solutionrelative:views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|c:\\users\\hamza\\onedrive\\masa\u00FCst\u00FC\\hamza\\c# projeler\\kutuphaneuygulamasi\\views\\books\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|solutionrelative:views\\books\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|c:\\users\\hamza\\onedrive\\masa\u00FCst\u00FC\\hamza\\c# projeler\\kutuphaneuygulamasi\\views\\books\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|solutionrelative:views\\books\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|c:\\users\\hamza\\onedrive\\masa\u00FCst\u00FC\\hamza\\c# projeler\\kutuphaneuygulamasi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|c:\\users\\hamza\\onedrive\\masa\u00FCst\u00FC\\hamza\\c# projeler\\kutuphaneuygulamasi\\migrations\\20260409173728_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|solutionrelative:migrations\\20260409173728_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|c:\\users\\hamza\\onedrive\\masa\u00FCst\u00FC\\hamza\\c# projeler\\kutuphaneuygulamasi\\views\\books\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|solutionrelative:views\\books\\add.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|c:\\users\\hamza\\onedrive\\masa\u00FCst\u00FC\\hamza\\c# projeler\\kutuphaneuygulamasi\\views\\books\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B28168C-C16D-4642-B201-7ADAD2CDDBE3}|KutuphaneUygulamasi.csproj|solutionrelative:views\\books\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,149 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Add.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Views\\Books\\Add.cshtml.cs",
-              "RelativeDocumentMoniker": "Views\\Books\\Add.cshtml.cs",
-              "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Views\\Books\\Add.cshtml.cs",
-              "RelativeToolTip": "Views\\Books\\Add.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T13:40:37.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20260409173728_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Migrations\\20260409173728_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260409173728_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Migrations\\20260409173728_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20260409173728_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T17:37:29.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-09T17:24:22.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Views\\Books\\Update.cshtml",
-              "RelativeDocumentMoniker": "Views\\Books\\Update.cshtml",
-              "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Views\\Books\\Update.cshtml",
-              "RelativeToolTip": "Views\\Books\\Update.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwCIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-09T17:19:15.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Views\\Books\\Add.cshtml",
-              "RelativeDocumentMoniker": "Views\\Books\\Add.cshtml",
-              "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Views\\Books\\Add.cshtml",
-              "RelativeToolTip": "Views\\Books\\Add.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-09T17:18:39.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Views\\Books\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Books\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Views\\Books\\Index.cshtml",
-              "RelativeToolTip": "Views\\Books\\Index.cshtml",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-09T17:18:07.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "Controllers\\BooksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T17:04:35.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T16:58:41.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-09T16:57:50.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T16:56:27.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
               "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Models\\Book.cs",
               "RelativeToolTip": "Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T16:55:29.927Z",
+              "WhenOpened": "2026-05-01T17:35:47.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:34:58.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T17:29:00.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Views\\Books\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Update.cshtml",
+              "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Views\\Books\\Update.cshtml",
+              "RelativeToolTip": "Views\\Books\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T17:27:58.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Views\\Books\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Add.cshtml",
+              "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Views\\Books\\Add.cshtml",
+              "RelativeToolTip": "Views\\Books\\Add.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T17:25:56.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\hamza\\OneDrive\\Masa\u00FCst\u00FC\\Hamza\\C# projeler\\KutuphaneUygulamasi\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAmwFgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:22:26.359Z",
               "EditorCaption": ""
             }
           ]

@@ -1,5 +1,7 @@
 ﻿using KutuphaneUygulamasi.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering; 
+using Microsoft.EntityFrameworkCore; 
 using System.Linq;
 
 namespace KutuphaneUygulamasi.Controllers
@@ -15,18 +17,21 @@ namespace KutuphaneUygulamasi.Controllers
 
         public IActionResult Index()
         {
-            var books = _context.Books.ToList();
+            // Kitapları çekerken ilişkili olduğu Category bilgisini de dahil ediyoruz
+            var books = _context.Books.Include(b => b.Category).ToList();
             return View(books);
         }
 
         [HttpGet]
         public IActionResult Add()
         {
+            // Kategorileri veritabanından çekip dropdown için View'e gönderiyoruz
+            ViewBag.Categories = new SelectList(_context.Categories.ToList(), "Id", "Name");
             return View();
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken] // Form güvenliği için eklendi
+        [ValidateAntiForgeryToken]
         public IActionResult Add(Book newBook)
         {
             if (ModelState.IsValid)
@@ -34,12 +39,12 @@ namespace KutuphaneUygulamasi.Controllers
                 _context.Books.Add(newBook);
                 _context.SaveChanges();
 
-                // Başarılı işlem mesajı eklendi
                 TempData["SuccessMessage"] = "Kitap başarıyla eklendi.";
                 return RedirectToAction("Index");
             }
 
-            // Veri hatalıysa aynı view'ı model ile geri döndür
+            // Veri hatalıysa form dönerken dropdown listesinin boş gelmemesi için listeyi tekrar dolduruyoruz
+            ViewBag.Categories = new SelectList(_context.Categories.ToList(), "Id", "Name");
             return View(newBook);
         }
 
@@ -51,11 +56,13 @@ namespace KutuphaneUygulamasi.Controllers
             {
                 return NotFound();
             }
+
+            ViewBag.Categories = new SelectList(_context.Categories.ToList(), "Id", "Name", book.CategoryId);
             return View(book);
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken] // Form güvenliği için eklendi
+        [ValidateAntiForgeryToken]
         public IActionResult Update(Book updatedBook)
         {
             if (ModelState.IsValid)
@@ -63,12 +70,11 @@ namespace KutuphaneUygulamasi.Controllers
                 _context.Books.Update(updatedBook);
                 _context.SaveChanges();
 
-                // Başarılı işlem mesajı eklendi
                 TempData["SuccessMessage"] = "Kitap bilgileri başarıyla güncellendi.";
                 return RedirectToAction("Index");
             }
 
-            // Veri hatalıysa aynı view'ı model ile geri döndür
+            ViewBag.Categories = new SelectList(_context.Categories.ToList(), "Id", "Name", updatedBook.CategoryId);
             return View(updatedBook);
         }
 
@@ -80,7 +86,6 @@ namespace KutuphaneUygulamasi.Controllers
                 _context.Books.Remove(book);
                 _context.SaveChanges();
 
-                // Başarılı işlem mesajı eklendi
                 TempData["SuccessMessage"] = "Kitap başarıyla silindi.";
             }
             return RedirectToAction("Index");
